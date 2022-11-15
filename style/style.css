@@ -1,0 +1,180 @@
+body{
+    background: rgb(13, 23, 33);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin-top: 0;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.378);
+}
+
+#logo{
+    width: 20vw;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    border: 1px solid white ;
+    font-size: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+   
+}
+#container1{
+    display: flex;
+    color: white;
+    padding: 3vw;
+    justify-content: space-between;
+    
+}
+#rigth h3{
+    text-align: center;
+}
+#left{
+    max-width: 50vw;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+#rigth{
+   min-width: none;
+    margin: auto;
+    padding: auto;
+}
+#registration form{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    row-gap: 1vw;
+    padding: 2vw;
+ 
+    
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+
+}
+button{
+    font-size: 1.2em;
+    background-color: red;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+
+#left h3{
+    color: rgb(177, 35, 101);
+    text-align: center;
+}
+
+#container2{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-right: 10px;
+    padding-left: 10px;
+   background-color: white;
+   font-size: 12px;
+    padding: 5vw;
+  
+   
+}
+#container2 h1{
+   text-align: center;
+   justify-content: center;
+   padding: 2vw;
+   color: rgb(53, 53, 53);
+   
+}
+
+#promo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 3vw;
+    justify-content: space-between;
+  
+}
+
+.cont{
+    padding: 1vw;
+    margin: 1vw;
+}
+
+#company{
+    width: 30vw;
+    text-align: center;
+    border: 1px solid white ;
+    font-size: 10px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    color: white;
+   
+}
+
+
+@media screen and (max-width: 412px) {
+    #container1 {
+      display: flex;
+      flex-direction: column;
+    }
+    #left{
+        max-width: 80vw;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    #rigth h3{
+        color: transparent;
+        font-size: 1px;
+
+    }
+    
+    #registration form{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        row-gap: 1vw;
+        padding: 2vw;
+     
+        
+    }
+    input, select, textarea{
+        border-radius: 5px;
+        height: 7vw;
+        width: 80vw;
+    
+    }
+
+    button{
+        font-size: 1.2em;
+        background-color: red;
+        border: 0;
+        padding: 0.2em 0.6em;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        margin: auto;
+        margin-top: 2vw;
+    }
+    #container2{
+        display: flex;
+        flex-direction: column;
+    }
+  }
