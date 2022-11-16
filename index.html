@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html  lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
     <title>
         Cupons de desconto
     </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +40,8 @@
             </div>
 
             <div id="rigth">
-                <h3>Cadastre-se e receba seu desconto</h3>
+                <span id="ac"></span>
+                <h3 >Cadastre-se e receba seu desconto</h3>
                 <div id="registration">
                     <div>
                         <form action="https://formspree.io/f/xdojbzpo" method="POST">
@@ -85,6 +87,7 @@
                                 6+11=?
                             </label>
                             <input type="number" required="required">
+                            
             
                             <button type="submit">Quero meu Cupom </button>
                         </form>
@@ -102,11 +105,11 @@
             </h1>
             <div id="promo">
                 <div id="left2">
-                    <div class="cont">
+                    <div data-aos="zoom-in-left" data-aos-duration="3000" class="cont">
                         <h4>Saia na frente</h4>
                         <p>Nosso estoque acaba rápido, aporoveite enquanto há tempo</p>
                     </div>
-                    <div class="cont">
+                    <div data-aos="zoom-in-right" data-aos-duration="3000" class="cont">
                         <h4>Saia na frente</h4>
                         <p>Nosso estoque acaba rápido, aporoveite enquanto há tempo</p>
                     </div>
@@ -115,11 +118,11 @@
                 </div>
 
                 <div id="rigth2">
-                    <div class="cont">
+                    <div  data-aos="zoom-in-right" data-aos-duration="3000" class="cont">
                         <h4>Promoções por tempo limitado</h4>
-                        <p>Este cupom será válido até o 2023, porém nossas promoções acam dia 12/12</p>
+                        <p>Este cupom será válido até o 2023, porém nossas promoções acabam dia 12/12</p>
                     </div>
-                    <div class="cont">
+                    <div data-aos="zoom-in-left" data-aos-duration="3000" class="cont">
                         <h4>Promoções por tempo limitado</h4>
                         <p>Este cupom será válido até o 2023, porém nossas promoções acabam dia 12/12</p>
                     </div>
@@ -127,7 +130,9 @@
                 </div>
 
             </div>
+            <a href="#ac" class="scrl"><h3 >Quero meu cupom</h3></a>
         </div>
+        
     </main>
 
     <footer>
@@ -135,7 +140,11 @@
             Name of Company
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
 
 </body>
 
